@@ -1,0 +1,103 @@
+{
+  "ComponentIndexes": {},
+  "ControlUniqueIds": {
+    "App": 1,
+    "Gallery2": 45,
+    "galleryTemplate2": 46,
+    "Group1": 20,
+    "Icon1": 11,
+    "Label1": 8,
+    "Logo": 7,
+    "Main": 5,
+    "NextArrow7": 64,
+    "Rectangle1": 6,
+    "Rectangle1_1": 19,
+    "SearchBox": 9,
+    "Separator7": 65,
+    "Subtitle5": 63,
+    "Title7": 62
+  },
+  "FunctionParamsInvariantScripts": {},
+  "FunctionParamsInvariantScriptsOnInstances": {},
+  "HeaderLastSavedDateTimeUTC": "07/28/2022 19:18:09",
+  "IsLegacyComponentAllowGlobalScopeCase": false,
+  "LocalConnectionIDReferences": {
+    "25a3641e-19f3-4504-96e6-a00b20d8696c": "\"/providers/microsoft.powerapps/apis/shared_excel/connections/1cd5912a7f8c45e9a03bdc3d6bb2d308\"",
+    "31d2e02e-f2aa-44c4-8f82-6e8719a921b0": "\"/providers/microsoft.powerapps/apis/shared_github/connections/12c4bc417c634db5bb0be6f5f3405c87\"",
+    "3dab7784-5f16-4ed1-bd8d-a0af35749397": "\"/providers/microsoft.powerapps/apis/shared_onedriveforbusiness/connections/eebde9afb10444e29fcb98cd72066811\""
+  },
+  "LocalDatabaseReferencesAsEmpty": false,
+  "LocalResourceFileNames": {
+    "CDW_Logo": "fd720af9-7f0c-497e-9a11-5db52dfdd692.png"
+  },
+  "LocalResourceRootPaths": {
+    "CDW_Logo": "https://docserverpwaprodwus.blob.core.windows.net/dc19c7c9-c771-4d91-ba5b-76f7cb12e8e1-1/resource/Assets0Images0fd720af9-7f0c-497e-9a11-5db52dfdd692.png?sv=2017-04-17&sr=b&sig=%2BDmnMQ5J1xUZf4Ozh%2BZP6eegS6kfXR1rSqfTIGIX9bU%3D&spr=https&se=2022-07-29T14%3A46%3A32Z&sp=r"
+  },
+  "OrderComponentMetadata": {},
+  "OrderComponentTemplate": {},
+  "OrderDataSource": {
+    "CustomGallerySample": 1,
+    "DropDownSample": 2,
+    "GitHub": 0,
+    "ListboxSample": 3,
+    "Table2": 4
+  },
+  "OrderGroupControls": {
+    "Group1": {
+      "Icon1": 0,
+      "SearchBox": 1
+    }
+  },
+  "OrderPcfTemplate": {},
+  "OrderTemplate": {},
+  "OrderXMLTemplate": {
+    "gallery": 5,
+    "icon": 4,
+    "image": 1,
+    "label": 2,
+    "rectangle": 0,
+    "text": 3
+  },
+  "PublishOrderIndices": {
+    "App": 0,
+    "Gallery2": 6,
+    "galleryTemplate2": 7,
+    "Group1": 4,
+    "Icon1": 5,
+    "Label1": 2,
+    "Logo": 1,
+    "Main": 0,
+    "NextArrow7": 9,
+    "Rectangle1": 0,
+    "Rectangle1_1": 12,
+    "SearchBox": 3,
+    "Separator7": 11,
+    "Subtitle5": 10,
+    "Title7": 8
+  },
+  "ResourcesJsonIndices": {
+    "Image-CDW_Logo": 1,
+    "Image-SampleImage": 0
+  },
+  "RuleScreenIdWithoutScreen": {},
+  "TemplateVersions": {},
+  "VolatileProperties": {
+    "AnalysisLoadTime": 0.2172798,
+    "ControlCount": {
+      "d22e4727695e4cc590aaa2f4b1c91281": 1,
+      "gallery": 1,
+      "galleryTemplate": 1,
+      "group": 1,
+      "icon": 4,
+      "image": 3,
+      "label": 4,
+      "listbox": 1,
+      "rectangle": 5,
+      "screen": 2,
+      "text": 1
+    },
+    "DeserializationLoadTime": 0.5950082,
+    "ErrorCount": 7
+  },
+  "WasLocalDatabaseReferencesEmpty": true
+}

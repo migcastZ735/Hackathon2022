@@ -1,0 +1,21 @@
+[
+  {
+    "ApiId": "/providers/microsoft.powerapps/apis/shared_excel",
+    "CdpRevision": {
+      "BaseUrl": "/",
+      "LastChangedTimeString": "2022-04-19T18:24:59.7670000Z",
+      "RevisionNumber": 1
+    },
+    "ConnectedDataSourceInfoNameMapping": {
+      "__PowerAppsId__": "Row id",
+      "JobName": "JobName",
+      "Skills": "Skills"
+    },
+    "DatasetName": "b!x6_kuokYXEyRs_um-QXhXxtKXpSqOKFEtAccxK3cR3g9EGxfNGkiSqfxAR6S-Y0b.01RPMGM32K7SDUOPF3GZGY6YRSSKBLXZAK",
+    "EncodeDataset": true,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "Name": "Table2",
+    "Type": "ConnectedDataSourceInfo"
+  }
+]
