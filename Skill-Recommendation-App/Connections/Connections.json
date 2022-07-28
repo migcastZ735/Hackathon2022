@@ -26,23 +26,6 @@
     "dependents": [],
     "id": "25a3641e-19f3-4504-96e6-a00b20d8696c"
   },
-  "31d2e02e-f2aa-44c4-8f82-6e8719a921b0": {
-    "connectionParameters": {
-      "sku": "Enterprise"
-    },
-    "connectionRef": {
-      "displayName": "GitHub",
-      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1549/1.0.1549.2680/github/icon.png",
-      "id": "/providers/microsoft.powerapps/apis/shared_github"
-    },
-    "datasets": {},
-    "dataSources": [
-      "GitHub"
-    ],
-    "dependencies": {},
-    "dependents": [],
-    "id": "31d2e02e-f2aa-44c4-8f82-6e8719a921b0"
-  },
   "3dab7784-5f16-4ed1-bd8d-a0af35749397": {
     "connectionParameters": {
       "sku": "Enterprise"

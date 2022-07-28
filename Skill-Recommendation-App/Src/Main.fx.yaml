@@ -12,7 +12,7 @@ Main As screen:
     "Gallery2 As gallery.'BrowseLayout_Vertical_TwoTextVariant_ver4.0'":
         BorderColor: =RGBA(89, 0, 0, 1)
         Height: =822
-        Items: =Search(
+        Items: =Search(Table2,SearchBox.Text,"JobName","Skills")
         Layout: =Layout.Vertical
         TemplatePadding: =0
         TemplateSize: =Min(104, Self.Height - 60)

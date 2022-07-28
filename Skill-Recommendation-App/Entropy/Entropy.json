@@ -19,11 +19,10 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "07/28/2022 19:20:16",
+  "HeaderLastSavedDateTimeUTC": "07/28/2022 22:30:31",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "25a3641e-19f3-4504-96e6-a00b20d8696c": "\"/providers/microsoft.powerapps/apis/shared_excel/connections/1cd5912a7f8c45e9a03bdc3d6bb2d308\"",
-    "31d2e02e-f2aa-44c4-8f82-6e8719a921b0": "\"/providers/microsoft.powerapps/apis/shared_github/connections/12c4bc417c634db5bb0be6f5f3405c87\"",
     "3dab7784-5f16-4ed1-bd8d-a0af35749397": "\"/providers/microsoft.powerapps/apis/shared_onedriveforbusiness/connections/eebde9afb10444e29fcb98cd72066811\""
   },
   "LocalDatabaseReferencesAsEmpty": false,
@@ -36,11 +35,10 @@
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
   "OrderDataSource": {
-    "CustomGallerySample": 1,
-    "DropDownSample": 2,
-    "GitHub": 0,
-    "ListboxSample": 3,
-    "Table2": 4
+    "CustomGallerySample": 0,
+    "DropDownSample": 1,
+    "ListboxSample": 2,
+    "Table2": 3
   },
   "OrderGroupControls": {
     "Group1": {
@@ -97,7 +95,7 @@
       "text": 1
     },
     "DeserializationLoadTime": 0.5950082,
-    "ErrorCount": 7
+    "ErrorCount": 0
   },
   "WasLocalDatabaseReferencesEmpty": true
 }
