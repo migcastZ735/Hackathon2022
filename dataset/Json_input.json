@@ -1,0 +1,57 @@
+{
+	"name": "Json_input",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "cleaned_related_skills.json",
+				"container": "skillfile-container"
+			}
+		},
+		"schema": {
+			"type": "object",
+			"properties": {
+				"name": {
+					"type": "string"
+				},
+				"related_1": {
+					"type": "string"
+				},
+				"related_2": {
+					"type": "string"
+				},
+				"related_3": {
+					"type": "string"
+				},
+				"related_4": {
+					"type": "string"
+				},
+				"related_5": {
+					"type": "string"
+				},
+				"related_6": {
+					"type": "string"
+				},
+				"related_7": {
+					"type": "string"
+				},
+				"related_8": {
+					"type": "string"
+				},
+				"related_9": {
+					"type": "string"
+				},
+				"related_10": {
+					"type": "string"
+				}
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

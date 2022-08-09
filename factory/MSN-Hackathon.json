@@ -1,0 +1,9 @@
+{
+	"name": "MSN-Hackathon",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "5868bef2-5a9d-4a40-876f-14454b6e62bd",
+		"tenantId": "de9231de-45f4-4325-ae07-8ae72052517e"
+	}
+}

@@ -1,0 +1,67 @@
+{
+	"name": "SkillSetDBlink",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SqlServer1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "id",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "job_title",
+				"type": "varchar"
+			},
+			{
+				"name": "Skill_set1",
+				"type": "varchar"
+			},
+			{
+				"name": "Skill_set2",
+				"type": "varchar"
+			},
+			{
+				"name": "Skill_set3",
+				"type": "varchar"
+			},
+			{
+				"name": "Skill_set4",
+				"type": "varchar"
+			},
+			{
+				"name": "Skill_set5",
+				"type": "varchar"
+			},
+			{
+				"name": "Skill_set6",
+				"type": "varchar"
+			},
+			{
+				"name": "Skill_set7",
+				"type": "varchar"
+			},
+			{
+				"name": "Skill_set8",
+				"type": "varchar"
+			},
+			{
+				"name": "Skill_set9",
+				"type": "varchar"
+			},
+			{
+				"name": "Skill_set10",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "SkillSet"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

@@ -1,0 +1,158 @@
+{
+	"name": "pl_loadskillJson-sql",
+	"properties": {
+		"activities": [
+			{
+				"name": "Copy data1",
+				"type": "Copy",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "7.00:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"source": {
+						"type": "JsonSource",
+						"storeSettings": {
+							"type": "AzureBlobStorageReadSettings",
+							"recursive": false,
+							"enablePartitionDiscovery": false
+						},
+						"formatSettings": {
+							"type": "JsonReadSettings"
+						}
+					},
+					"sink": {
+						"type": "SqlServerSink",
+						"writeBehavior": "insert",
+						"sqlWriterUseTableLock": false
+					},
+					"enableStaging": false,
+					"translator": {
+						"type": "TabularTranslator",
+						"mappings": [
+							{
+								"source": {
+									"path": "$['name']"
+								},
+								"sink": {
+									"name": "job_title",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"path": "$['related_1']"
+								},
+								"sink": {
+									"name": "Skill_set1",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"path": "$['related_2']"
+								},
+								"sink": {
+									"name": "Skill_set2",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"path": "$['related_3']"
+								},
+								"sink": {
+									"name": "Skill_set3",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"path": "$['related_4']"
+								},
+								"sink": {
+									"name": "Skill_set4",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"path": "$['related_5']"
+								},
+								"sink": {
+									"name": "Skill_set5",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"path": "$['related_6']"
+								},
+								"sink": {
+									"name": "Skill_set6",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"path": "$['related_7']"
+								},
+								"sink": {
+									"name": "Skill_set7",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"path": "$['related_8']"
+								},
+								"sink": {
+									"name": "Skill_set8",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"path": "$['related_9']"
+								},
+								"sink": {
+									"name": "Skill_set9",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"path": "$['related_10']"
+								},
+								"sink": {
+									"name": "Skill_set10",
+									"type": "String"
+								}
+							}
+						]
+					}
+				},
+				"inputs": [
+					{
+						"referenceName": "Json_input",
+						"type": "DatasetReference"
+					}
+				],
+				"outputs": [
+					{
+						"referenceName": "SkillSetDBlink",
+						"type": "DatasetReference"
+					}
+				]
+			}
+		],
+		"annotations": [],
+		"lastPublishTime": "2022-08-07T21:12:24Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}
